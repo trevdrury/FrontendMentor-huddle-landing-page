@@ -1,0 +1,32 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Open Sans' sans-serif;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('./assets/bg-mobile.svg') var(--violet);
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.header__logo {
+  max-width: 12rem;
+}
+
+.hero__img {
+  max-width: 29.5rem;
+}
