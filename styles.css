@@ -165,7 +165,7 @@ body {
 
   .social-links {
     grid-area: social;
-    justify-content: right;
+    justify-content: end;
     margin-top: 0;
     padding-bottom: 4.5rem;
   }
